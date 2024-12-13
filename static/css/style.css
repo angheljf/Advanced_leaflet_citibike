@@ -1,0 +1,132 @@
+html,
+body,
+#map-id {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend .low {
+  color: #ec8a2e;
+}
+
+.legend .empty {
+  color: #a0353a;
+}
+
+.legend .coming-soon {
+  color: #f4ba48;
+}
+
+.legend .healthy {
+  color: #1b904f;
+}
+
+.legend .out-of-order {
+  color: #007dff;
+}
+
+.zoom-toggle button,
+.zoom-reset button {
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007dff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.zoom-toggle button.off {
+  background-color: #a0353a;
+}
+
+.search-bar {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input {
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  padding: 5px;
+  margin-right: 5px;
+}
+
+.search-bar button {
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007dff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.options-menu {
+  background-color: white;
+  padding: 8px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  transition: width 0.3s, height 0.3s;
+}
+
+.options-menu.collapsed {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.options-header {
+  font-family: Sanchez, serif;
+  font-size: 16px; /* Smaller font size */
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.options-content {
+  display: none;
+}
+
+.options-menu:not(.collapsed) .options-content {
+  display: block;
+}
+
+.options-menu button,
+.options-menu input {
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+.options-menu button {
+  font-weight: bold;
+  color: white;
+  background-color: #007dff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.options-menu button.off {
+  background-color: #a0353a;
+}
